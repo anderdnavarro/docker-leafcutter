@@ -1,4 +1,3 @@
-docker file used to run leafcutter and leafviz
+Dockerfile used to run [leafcutter](https://github.com/davidaknowles/leafcutter) and [leafviz](https://github.com/jackhump/leafviz).
 
-https://github.com/davidaknowles/leafcutter
-https://github.com/jackhump/leafviz
+Adapted from https://github.com/apaul7/docker-leafcutter
