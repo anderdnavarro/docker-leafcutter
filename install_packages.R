@@ -3,6 +3,8 @@ stopifnot("BiocManager" %in% installed.packages()[,'Package'])
 BiocManager::install(c("Biobase", "DirichletMultinomial"), update=FALSE)
 stopifnot(c("Biobase", "DirichletMultinomial") %in% installed.packages()[,'Package'])
 
+install.packages("https://cran.r-project.org/src/contrib/Archive/gtable/gtable_0.3.1.tar.gz", repos=NULL, type="source")
+stopifnot("gtable" %in% installed.packages()[,'Package'])
 install.packages(c('httr', 'clisymbols', 'png', 'jpeg', 'acepack', 'assertthat', 'ini', 'whisker', 'praise', 'rcmdcheck', 'TailRank', 'gridExtra', 'RColorBrewer', 'reshape2', 'munsell', 'pkgconfig', 'base64enc', 'sourcetools', 'plogr', 'stargazer', 'getPass'), repos = "http://cran.us.r-project.org")
 stopifnot(c('httr', 'clisymbols', 'png', 'jpeg', 'acepack', 'assertthat', 'ini', 'whisker', 'praise', 'rcmdcheck', 'TailRank', 'gridExtra', 'RColorBrewer', 'reshape2', 'munsell', 'pkgconfig', 'base64enc', 'sourcetools', 'plogr', 'stargazer', 'getPass') %in% installed.packages()[,'Package'])
 install.packages("https://cran.r-project.org/src/contrib/Archive/StanHeaders/StanHeaders_2.19.0.tar.gz", repos=NULL, type="source")
