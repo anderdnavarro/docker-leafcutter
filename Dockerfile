@@ -110,4 +110,4 @@ RUN Rscript /tmp/install_packages.R && \
 WORKDIR /git/
 RUN git clone https://github.com/davidaknowles/leafcutter.git
 RUN git clone https://github.com/jackhump/leafviz.git 
-WORKDIR /
+WORKDIR /home
