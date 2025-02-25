@@ -1,0 +1,2 @@
+example_g1.bam G1
+example_g2.bam G2
