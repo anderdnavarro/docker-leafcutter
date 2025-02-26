@@ -1,11 +1,5 @@
 # Tutorial -> https://davidaknowles.github.io/leafcutter/articles/Usage.html
 
-# Instructions
-## Docker
-docker run --rm -u $(id -u):$(id -g) -v $(pwd):/home -v /PATH_TO_GTF/:/genome  -it anderdnavarro/leafcutter
-## Singularity 
-singularity shell -H $(pwd):/home -B /PATH_TO_GTF/:/genome leafcutter.sif
-
 # 1. Options
 bamsdir='/home/'
 output_prefix=''
